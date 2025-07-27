@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+.inner {
+    display: flex;
+    
+    justify-content: center;
+}
+h1,h3{
+    text-align: center;
+    margin: 1rem 0;
+}
+.inner .box{
+   margin-top: 1rem;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.blue{
+    background-color: #819ff9;
+}
+.active{
+    background-color: white;
+}
+.disable{
+    background-color: red;
+}
